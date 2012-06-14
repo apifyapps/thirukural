@@ -1,0 +1,33 @@
+.content
+  %button.punch#generate-random-sub
+  .row
+    .span2
+      %img{src: "/img/thiruvalluvar.jpg"}
+    .span6
+      %h6
+        \#
+        %span#kural-number
+      %h1#kural-content
+  .row
+    &nbsp;
+  .row
+    .span2
+      Built with
+      %a{href: "http://apify.heroku.com/resources/4fda2ede485abc0001000034", target: '_blank'}
+        APIfy.
+      %br
+      Fork on 
+      %a{href: "https://github.com/sathish316/randomkural", target: '_blank'}
+        Github
+    .span2
+      %a.btn#prev-kural{href: '#'}
+        %i.icon-chevron-left
+        Previous
+    .span2
+      %a.btn.btn-primary#random-kural{href: '#'}
+        %i.icon-leaf.icon-white
+        Random
+    .span2
+      %a.btn#next-kural{href: '#'}
+        Next
+        %i.icon-chevron-right
